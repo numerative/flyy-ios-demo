@@ -1,0 +1,230 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target i386-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FlyyFramework
+import AdSupport
+import CommonCrypto
+import CryptoKit
+@_exported import FlyyFramework
+import Foundation
+import NetworkExtension
+import QuartzCore
+import Swift
+import SystemConfiguration
+import UIKit
+import WebKit
+import _Concurrency
+extension Foundation.Data {
+  public func sha256() -> Swift.String
+}
+@_hasMissingDesignatedInitializers public class Reachability {
+  public static func isConnectedToNetwork() -> Swift.Bool
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class Flyy : ObjectiveC.NSObject {
+  public static var FLYY_PARTNER_TOKEN: Swift.String
+  public static var FLYY_EXTERNAL_USER_ID: Swift.String
+  public static var FLYY_USER_TOKEN: Swift.String
+  public static let FLYY_ENVIRONMENT_PRODUCTION: Swift.Int
+  public static let FLYY_ENVIRONMENT_STAGING: Swift.Int
+  public static var ENVIRONMENT: Swift.String
+  public static var PACKAGE_NAME: Swift.String
+  public static var SEGMENT_ID: Swift.String
+  public static var FLYY_COLOR_PRIMARY: Swift.String
+  public static var FLYY_COLOR_PRIMARY_DARK: Swift.String
+  public static var FLYY_REFERRAL_CODE: Swift.String
+  public static var FLYY_USER_NAME: Swift.String?
+  public static var PAGE_TO_OPEN: Foundation.URL?
+  public static var LABEL_TEXT: Swift.String
+  public static var CHECK_BACK_CLICK: Swift.String
+  public static var MAIN_URL: Swift.String
+  public static let PRODUCTION_URL: Swift.String
+  public static let STAGE_URL: Swift.String
+  public static var FLYY_CLIENT_BASE_URL: Swift.String
+  public static var FLYY_CLIENT_BASE_STAGE_URL: Swift.String
+  public static var scratchCardImage: UIKit.UIImage?
+  public static var navigationController: UIKit.UINavigationController?
+  public static var FLYY_CHECK_ROOT_VIEW: Swift.String
+  public static var acctnumber: Swift.String?
+  public static var ifscNum: Swift.String?
+  public static var acctname: Swift.String?
+  public static var upiIdNum: Swift.String?
+  public static var scratchCardCount: Swift.String?
+  public static var hideRefNum: Swift.String?
+  public static var FLYY_NOTIFICATION_STATE: Swift.String
+  public var delegate: FlyyFramework.FlyySDKClosedListener?
+  public static var FLYY_CONFETTI_COLOR: [UIKit.UIColor]!
+  @objc override dynamic public init()
+  @objc(sharedFlyyInstance) public static let sharedInstance: FlyyFramework.Flyy
+  @objc(getFrameworkVersion) public func getFrameworkVersion() -> Swift.String
+  @objc public func initSDK(partnerToken: Swift.String, environment: Swift.Int)
+  @objc public func initSDK(partnerToken: Swift.String, environment: Swift.Int, themeColorPrimary: Swift.String, themeColorPrimaryDark: Swift.String)
+  @objc public func initSDK(partnerToken: Swift.String, environment: Swift.Int, onComplete: @escaping (Swift.Bool, Swift.String) -> Swift.Void)
+  @objc public func initSDK(userActivity: Foundation.NSUserActivity, partnerToken: Swift.String, environment: Swift.Int, onComplete: @escaping (Swift.Bool, Swift.String) -> Swift.Void)
+  @objc public func startReferralTracking(userActivity: Foundation.NSUserActivity, onComplete: @escaping (Swift.Bool, Swift.String) -> Swift.Void)
+  @objc public func startReferralTracking(onComplete: @escaping (Swift.Bool, Swift.String) -> Swift.Void)
+  @objc public func setThemeColor(colorPrimary: Swift.String, colorPrimaryDark: Swift.String)
+  @objc public func setConfettiColor(confettiColor: [UIKit.UIColor])
+  @objc public func verifyReferralCode(referralCode: Swift.String, onComplete: @escaping (Swift.Bool, Swift.String) -> Swift.Void)
+  @objc public func getShareData(onComplete: @escaping (Swift.Bool, [Swift.String]) -> Swift.Void)
+  @objc public func getShareData(offerId: Swift.Int, onComplete: @escaping (Swift.Bool, [Swift.String]) -> Swift.Void)
+  @objc public func getReferralCount(onComplete: @escaping (Swift.Bool, Swift.Int) -> Swift.Void)
+  @objc public func getScratchCardCount(onComplete: @escaping (Swift.Bool, [Swift.Int]) -> Swift.Void)
+  @objc public func getPreviousLeaderboardWinners(tag: Swift.String, onComplete: @escaping (Swift.Bool, Swift.String, Swift.Int, Swift.String, Swift.String) -> Swift.Void)
+  @objc public func getLeaderboardParticipants(tag: Swift.String, onComplete: @escaping (Swift.Bool, Swift.String, Swift.Int, Swift.String, Swift.String) -> Swift.Void)
+  @objc public func getWalletBalance(walletLabel: Swift.String, onComplete: @escaping (Swift.Bool, [Swift.Int]) -> Swift.Void)
+  @objc public func getReferrerDetails(onComplete: @escaping (Swift.Bool, [Swift.String]) -> Swift.Void)
+  @objc public func getOffersCount(onComplete: @escaping (Swift.Bool, [Swift.Int]) -> Swift.Void)
+  @objc public func production() -> Swift.Int
+  @objc public func staging() -> Swift.Int
+  @objc public func setReferralCode(referralCode: Swift.String)
+  @objc public func getReferralCode() -> Swift.String
+  @objc public func setSegmentId(segementId: Swift.String)
+  @objc public func getSegmentId() -> Swift.String
+  @objc public func setPackage(packageName: Swift.String)
+  @objc public func setBaseStageFlyyDomain(domain: Swift.String)
+  @objc public func setBaseFlyyDomain(domain: Swift.String)
+  @objc public func getPackage() -> Swift.String
+  @objc public func setBankDetails(accountNumber: Swift.String, ifscCode: Swift.String, accountHolderName: Swift.String)
+  @objc public func setUPI(upiId: Swift.String)
+  @objc public func sendFcmTokenToServer(fcmToken: Swift.String)
+  @objc public func openDeepLink(action: Swift.String)
+  @objc public func setUserName(userName: Swift.String)
+  @objc public func setUserName(userName: Swift.String, onComplete: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func setDisplayName(userName: Swift.String)
+  @objc public func setDisplayName(userName: Swift.String, onComplete: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func setContactNumber(contactNumber: Swift.String)
+  @objc public func setContactNumber(contactNumber: Swift.String, onComplete: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func setNewUser(externalUserId: Swift.String)
+  @objc public func setNewUser(externalUserId: Swift.String, onComplete: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func setNewUser(externalUserId: Swift.String, segmentId: Swift.String)
+  @objc public func setNewUser(externalUserId: Swift.String, segmentId: Swift.String, onComplete: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func setNewUserToken(userToken: Swift.String)
+  @objc public func setNewUserToken(userToken: Swift.String, onComplete: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func setNewUserToken(userToken: Swift.String, segmentId: Swift.String)
+  @objc public func setNewUserToken(userToken: Swift.String, segmentId: Swift.String, onComplete: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func loginUser(externalUserId: Swift.String, userName: Swift.String, onComplete: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func setUser(externalUserId: Swift.String)
+  @objc public func setUser(externalUserId: Swift.String, onComplete: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func setUser(externalUserId: Swift.String, segmentId: Swift.String)
+  @objc public func setUser(externalUserId: Swift.String, segmentId: Swift.String, onComplete: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func saveUserIdLocally(externalUserId: Swift.String)
+  @objc public func setUserToken(userToken: Swift.String)
+  @objc public func setUserToken(userToken: Swift.String, onComplete: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func setUserToken(userToken: Swift.String, segmentId: Swift.String)
+  @objc public func setUserToken(userToken: Swift.String, segmentId: Swift.String, onComplete: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func addUserToSegment(segmentTitle: Swift.String, segmentKey: Swift.String, onComplete: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func sendEvent(key: Swift.String, value: Swift.String)
+  @objc public func sendEvent(key: Swift.String, value: Swift.String, onComplete: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func sendEventWithJson(key: Swift.String, value: Any)
+  @objc public func sendEventWithJson(key: Swift.String, value: Any, onComplete: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func getHeadersDataForWebView(segmentId: Swift.String) -> Swift.String
+  @objc public func handleBackgroundNotification(userInfo: [Swift.AnyHashable : Any])
+  @objc public func handleForegroundNotification(userInfo: [Swift.AnyHashable : Any])
+  @objc public func displayNotificationPopupView(title: Swift.String, body: Swift.String)
+  @objc public func displayNotificationScratchView(title: Swift.String, body: Swift.String, refNum: Swift.String)
+  @objc public func displayNotificationToastView(title: Swift.String, buttonText: Swift.String, deeplink: Swift.String, duration: Swift.Int)
+  @objc public func handleNotification(userInfo: Swift.String)
+  @objc public func setRewardGridSpanCount(count: Swift.String)
+  @objc public func showRefNumInSCPopup()
+  @objc public func openFlyyStoryboard(viewName: Swift.String)
+  @objc public func openStoryboard()
+  @objc public func setSDKClosedListener(flyysdkclosedlistener: FlyyFramework.FlyySDKClosedListener)
+  @objc public func openFlyyOffersPage(navigationController: UIKit.UINavigationController)
+  @objc public func openFlyyOffersPage(navigationController: UIKit.UINavigationController, segmentId: Swift.String)
+  @objc public func openFlyyRewardsPage(navigationController: UIKit.UINavigationController)
+  @objc public func openFlyyRewardsPage(navigationController: UIKit.UINavigationController, segmentId: Swift.String)
+  @objc public func openFlyyWalletPage(navigationController: UIKit.UINavigationController)
+  @objc public func openFlyyWalletPage(navigationController: UIKit.UINavigationController, segmentId: Swift.String)
+  @objc public func openFlyyTransactionsPage(navigationController: UIKit.UINavigationController)
+  @objc public func openFlyyTransactionsPage(navigationController: UIKit.UINavigationController, segmentId: Swift.String)
+  @objc public func openFlyyStampsPage(navigationController: UIKit.UINavigationController)
+  @objc public func openFlyyStampsPage(navigationController: UIKit.UINavigationController, segmentId: Swift.String)
+  @objc public func openFlyyGiftCardsPage(navigationController: UIKit.UINavigationController)
+  @objc public func openFlyyGiftCardsPage(navigationController: UIKit.UINavigationController, segmentId: Swift.String)
+  @objc public func openFlyyReferralHistoryPage(navigationController: UIKit.UINavigationController)
+  @objc public func openFlyyReferralHistoryPage(navigationController: UIKit.UINavigationController, segmentId: Swift.String)
+  @objc public func openFlyyGamesListPage(navigationController: UIKit.UINavigationController, title: Swift.String)
+  @objc public func openFlyyGamesListPage(navigationController: UIKit.UINavigationController, title: Swift.String, segmentId: Swift.String)
+  @objc public func openFlyyGameDetailsPage(navigationController: UIKit.UINavigationController, gameId: Swift.Int, userName: Swift.String)
+  @objc public func openFlyyGameDetailsPage(navigationController: UIKit.UINavigationController, gameId: Swift.Int, userName: Swift.String, segmentId: Swift.String)
+  @objc public func openFlyyGameHistoryPage(navigationController: UIKit.UINavigationController, prizeType: Swift.String)
+  @objc public func openFlyyGameHistoryPage(navigationController: UIKit.UINavigationController, prizeType: Swift.String, segmentId: Swift.String)
+  @objc public func openFlyyQuizPage(navigationController: UIKit.UINavigationController)
+  @objc public func openFlyyQuizListPage(navigationController: UIKit.UINavigationController)
+  @objc public func openFlyyQuizHistoryPage(navigationController: UIKit.UINavigationController)
+  @objc public func openFlyyQuizQuestionsPage(navigationController: UIKit.UINavigationController)
+  @objc public func openFlyyInviteDetailsPage(navigationController: UIKit.UINavigationController)
+  @objc public func openFlyyQuizViewController(navigationController: UIKit.UINavigationController)
+  @objc public func openFlyyQuizListViewController(navigationController: UIKit.UINavigationController)
+  @objc public func openFlyyQuizHistoryViewController(navigationController: UIKit.UINavigationController)
+  @objc public func openFlyyQuizQuestionViewController(navigationController: UIKit.UINavigationController)
+  @objc public func logoutUser()
+  @objc public func openOffersPage()
+  @objc public func openBonanzaPage()
+  @objc public func openWebOffersPage()
+  @objc public func openWebOffersPage(navigationController: UIKit.UINavigationController)
+  @objc public func openOffersPage(segmentId: Swift.String)
+  @objc public func openWebOffersPage(segmentId: Swift.String)
+  @objc public func openWebOffersPage(segmentId: Swift.String, navigationController: UIKit.UINavigationController)
+  @objc public func openRewardsPage()
+  @objc public func openWebRewardsPage()
+  @objc public func openWebRewardsPage(navigationController: UIKit.UINavigationController)
+  @objc public func openRewardsPage(segmentId: Swift.String)
+  @objc public func openWalletPage()
+  @objc public func openWebWalletPage()
+  @objc public func openWebWalletPage(navigationController: UIKit.UINavigationController)
+  @objc public func openWalletPage(segmentId: Swift.String)
+  @objc public func openWebReferralHistoryPage()
+  @objc public func openReferralHistoryPage()
+  @objc public func openDailyCheckinPage()
+  @objc public func openSpinTheWheelPage(spinWheelId: Swift.Int)
+  @objc public func openWebReferralHistoryPage(navigationController: UIKit.UINavigationController)
+  @objc public func openWebGiftCardsPage()
+  @objc public func openWebGiftCardsPage(navigationController: UIKit.UINavigationController)
+  @objc public func openWebViewPage(urlData: Swift.String)
+  @objc public func openInviteAndEarnPage(offerId: Swift.Int)
+  @objc public func openFlyyCustomInviteAndEarnVC(offerId: Swift.Int, headerColor: Swift.String)
+  @objc public func openGiftCardPage()
+  @objc public func openGameListPage()
+  @objc public func openGameHistoryPage()
+  @objc public func openQuizListPage()
+  @objc public func openQuizListDetailPage(quizId: Swift.Int)
+  @objc public func openQuizHistoryPage()
+  @objc public func openFlyyChallengesPage(offerId: Swift.Int)
+  @objc public func openTransactionPage(rewardType: Swift.String)
+  @objc public func openWebTransactionPage()
+  @objc public func openWebTransactionPage(navigationController: UIKit.UINavigationController)
+  @objc public func openTournamentsListPage()
+  @objc public func openTournamentsListPage(navigationController: UIKit.UINavigationController)
+  @objc public func openTournamentsDetailPage()
+  @objc public func openTournamentsDetailPage(navigationController: UIKit.UINavigationController)
+  @objc public func openTournamensHistoryPage()
+  @objc public func openTournamensHistoryPage(navigationController: UIKit.UINavigationController)
+  @objc public func openInviteDetailsPage(offerId: Swift.Int)
+  @objc deinit
+}
+extension FlyyFramework.Flyy {
+  @objc dynamic public func getReferrerLink(onComplete: @escaping (Swift.Bool, Swift.String) -> Swift.Void)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SwiftConfettiView : UIKit.UIView {
+  public enum ConfettiType {
+    case confetti
+    case triangle
+    case star
+    case diamond
+    case image(UIKit.UIImage)
+  }
+  @_Concurrency.MainActor(unsafe) public var colors: [UIKit.UIColor]!
+  @_Concurrency.MainActor(unsafe) public var intensity: Swift.Float!
+  @_Concurrency.MainActor(unsafe) public var type: FlyyFramework.SwiftConfettiView.ConfettiType!
+  @_Concurrency.MainActor(unsafe) public var confetti: UIKit.UIImage!
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) public func startConfetti()
+  @_Concurrency.MainActor(unsafe) public func stopConfetti()
+  @_Concurrency.MainActor(unsafe) public func isActive() -> Swift.Bool
+  @objc deinit
+}
+@objc public protocol FlyySDKClosedListener {
+  @objc func onSDKClosed(screenName: Swift.String)
+}

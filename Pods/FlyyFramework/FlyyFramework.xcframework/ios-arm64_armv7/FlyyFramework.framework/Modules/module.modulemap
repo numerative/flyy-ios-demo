@@ -1,0 +1,11 @@
+framework module FlyyFramework {
+  umbrella header "FlyyFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module FlyyFramework.Swift {
+    header "FlyyFramework-Swift.h"
+    requires objc
+}

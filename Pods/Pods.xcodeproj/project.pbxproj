@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0A2B42EC4DECDED783FE377C87B0C7F8 /* FlyyFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C108E5906F12ECA21FA7E244B2A350A8 /* Build configuration list for PBXAggregateTarget "FlyyFramework" */;
+			buildPhases = (
+				94E44267B378F25BCA4F5DC3F26BC6A8 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = FlyyFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		34C9082751E67575AE085F9A8D8316C0 /* Pods-FlyyX Integration-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5198C03BBD44ED99D29E18D4C2FAF857 /* Pods-FlyyX Integration-dummy.m */; };
+		7272F20D4728C4D4EE360E45F5CE2EBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E54B9C705AB6853A2020EC71B0C36A6B /* Pods-FlyyX Integration-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4594FBBE98F58203468615C87326E8 /* Pods-FlyyX Integration-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4051D5AC48C82C4B2EEA0789BD29997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A2B42EC4DECDED783FE377C87B0C7F8;
+			remoteInfo = FlyyFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D829F4AC63225A67D280ED6F15C9C5 /* Pods-FlyyX Integration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyyX Integration.debug.xcconfig"; sourceTree = "<group>"; };
+		0F37939505257FB0B0AE2108555FD50C /* FlyyFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlyyFramework.debug.xcconfig; sourceTree = "<group>"; };
+		10E57453D51A88FEB74EE933AB83B454 /* Pods-FlyyX Integration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyyX Integration.release.xcconfig"; sourceTree = "<group>"; };
+		200EF6BBD43062944242DAEF2A27DBBB /* FlyyFramework-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FlyyFramework-xcframeworks.sh"; sourceTree = "<group>"; };
+		31C3125587922805D8340CA55B91489F /* FlyyFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlyyFramework.release.xcconfig; sourceTree = "<group>"; };
+		4642468F7825055CCB47DC8D792D9B53 /* Pods-FlyyX Integration-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlyyX Integration-frameworks.sh"; sourceTree = "<group>"; };
+		5198C03BBD44ED99D29E18D4C2FAF857 /* Pods-FlyyX Integration-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlyyX Integration-dummy.m"; sourceTree = "<group>"; };
+		654E7A4CC879FE633EC5DF1D9F1748DF /* FlyyFramework.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = FlyyFramework.xcframework; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7576CE2BF7A299B924851E57EE77FDC6 /* Pods-FlyyX Integration-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlyyX Integration-Info.plist"; sourceTree = "<group>"; };
+		772F6E9F8CE02E3459F2163AFA772E1E /* Pods-FlyyX Integration.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlyyX Integration.modulemap"; sourceTree = "<group>"; };
+		8D84F7F20046C72E23348E22671CAFC1 /* Pods-FlyyX Integration-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlyyX Integration-acknowledgements.plist"; sourceTree = "<group>"; };
+		960FF586D86441572530FA741499C161 /* Pods-FlyyX Integration */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FlyyX Integration"; path = Pods_FlyyX_Integration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B24D970AEF9A0620AE55D37345374811 /* Pods-FlyyX Integration-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlyyX Integration-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA4594FBBE98F58203468615C87326E8 /* Pods-FlyyX Integration-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlyyX Integration-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74BBABB8FA75E87143063EB52408D093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7272F20D4728C4D4EE360E45F5CE2EBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B348C9C9F34761FFDC6BF633DCA222C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				200EF6BBD43062944242DAEF2A27DBBB /* FlyyFramework-xcframeworks.sh */,
+				0F37939505257FB0B0AE2108555FD50C /* FlyyFramework.debug.xcconfig */,
+				31C3125587922805D8340CA55B91489F /* FlyyFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlyyFramework";
+			sourceTree = "<group>";
+		};
+		0BBE698AA7AEE7D810CC7AF6A507680F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				654E7A4CC879FE633EC5DF1D9F1748DF /* FlyyFramework.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5CA3089139DBEB301CBE790145B37644 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9502B8FC66520AC9ECC6C989C1EC2128 /* Pods-FlyyX Integration */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8F3D757831BB0B5CACAF75EE04C6A510 /* FlyyFramework */ = {
+			isa = PBXGroup;
+			children = (
+				0BBE698AA7AEE7D810CC7AF6A507680F /* Frameworks */,
+				0B348C9C9F34761FFDC6BF633DCA222C /* Support Files */,
+			);
+			name = FlyyFramework;
+			path = FlyyFramework;
+			sourceTree = "<group>";
+		};
+		9502B8FC66520AC9ECC6C989C1EC2128 /* Pods-FlyyX Integration */ = {
+			isa = PBXGroup;
+			children = (
+				772F6E9F8CE02E3459F2163AFA772E1E /* Pods-FlyyX Integration.modulemap */,
+				B24D970AEF9A0620AE55D37345374811 /* Pods-FlyyX Integration-acknowledgements.markdown */,
+				8D84F7F20046C72E23348E22671CAFC1 /* Pods-FlyyX Integration-acknowledgements.plist */,
+				5198C03BBD44ED99D29E18D4C2FAF857 /* Pods-FlyyX Integration-dummy.m */,
+				4642468F7825055CCB47DC8D792D9B53 /* Pods-FlyyX Integration-frameworks.sh */,
+				7576CE2BF7A299B924851E57EE77FDC6 /* Pods-FlyyX Integration-Info.plist */,
+				EA4594FBBE98F58203468615C87326E8 /* Pods-FlyyX Integration-umbrella.h */,
+				08D829F4AC63225A67D280ED6F15C9C5 /* Pods-FlyyX Integration.debug.xcconfig */,
+				10E57453D51A88FEB74EE933AB83B454 /* Pods-FlyyX Integration.release.xcconfig */,
+			);
+			name = "Pods-FlyyX Integration";
+			path = "Target Support Files/Pods-FlyyX Integration";
+			sourceTree = "<group>";
+		};
+		BBADA58AB09C8560FF2C58529AF340D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				960FF586D86441572530FA741499C161 /* Pods-FlyyX Integration */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F00A6DAED4EE4D8ECEFC1D1D33E34D44 /* Pods */,
+				BBADA58AB09C8560FF2C58529AF340D1 /* Products */,
+				5CA3089139DBEB301CBE790145B37644 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F00A6DAED4EE4D8ECEFC1D1D33E34D44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F3D757831BB0B5CACAF75EE04C6A510 /* FlyyFramework */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		75AA48BDFE804C0AB516DC7E2D58A920 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54B9C705AB6853A2020EC71B0C36A6B /* Pods-FlyyX Integration-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		79DBAB1AA953C4C7E99329531C4E5EC0 /* Pods-FlyyX Integration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A6DFDAF05354EC6D86B69FBE828178 /* Build configuration list for PBXNativeTarget "Pods-FlyyX Integration" */;
+			buildPhases = (
+				75AA48BDFE804C0AB516DC7E2D58A920 /* Headers */,
+				1DB39315CDC5018D5E6B00F8DF1AF361 /* Sources */,
+				74BBABB8FA75E87143063EB52408D093 /* Frameworks */,
+				DA81C0247486B9FCA6C01DBB85535BC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B81E35275E68E4E5702A16ADD1DA0B58 /* PBXTargetDependency */,
+			);
+			name = "Pods-FlyyX Integration";
+			productName = Pods_FlyyX_Integration;
+			productReference = 960FF586D86441572530FA741499C161 /* Pods-FlyyX Integration */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BBADA58AB09C8560FF2C58529AF340D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A2B42EC4DECDED783FE377C87B0C7F8 /* FlyyFramework */,
+				79DBAB1AA953C4C7E99329531C4E5EC0 /* Pods-FlyyX Integration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA81C0247486B9FCA6C01DBB85535BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94E44267B378F25BCA4F5DC3F26BC6A8 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FlyyFramework/FlyyFramework-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FlyyFramework/FlyyFramework-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FlyyFramework/FlyyFramework-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DB39315CDC5018D5E6B00F8DF1AF361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C9082751E67575AE085F9A8D8316C0 /* Pods-FlyyX Integration-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B81E35275E68E4E5702A16ADD1DA0B58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlyyFramework;
+			target = 0A2B42EC4DECDED783FE377C87B0C7F8 /* FlyyFramework */;
+			targetProxy = E4051D5AC48C82C4B2EEA0789BD29997 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EEC9A5F4CEE0234D58E09E7C1FA1E69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E57453D51A88FEB74EE933AB83B454 /* Pods-FlyyX Integration.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyyX Integration/Pods-FlyyX Integration-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyyX Integration/Pods-FlyyX Integration.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B819CC21A5DF642F5664E98FAA6CAD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08D829F4AC63225A67D280ED6F15C9C5 /* Pods-FlyyX Integration.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyyX Integration/Pods-FlyyX Integration-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyyX Integration/Pods-FlyyX Integration.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7004667B80F72DD87A45214CCB270A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F37939505257FB0B0AE2108555FD50C /* FlyyFramework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8A1B3FCFB241BCB770EB8FB5F4701561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31C3125587922805D8340CA55B91489F /* FlyyFramework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21A6DFDAF05354EC6D86B69FBE828178 /* Build configuration list for PBXNativeTarget "Pods-FlyyX Integration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B819CC21A5DF642F5664E98FAA6CAD9 /* Debug */,
+				1EEC9A5F4CEE0234D58E09E7C1FA1E69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C108E5906F12ECA21FA7E244B2A350A8 /* Build configuration list for PBXAggregateTarget "FlyyFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7004667B80F72DD87A45214CCB270A5B /* Debug */,
+				8A1B3FCFB241BCB770EB8FB5F4701561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
